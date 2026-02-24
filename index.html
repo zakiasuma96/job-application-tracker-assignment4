@@ -52,6 +52,12 @@
             <button onclick="toggleStyle('interview-filter-btn')" id="interview-filter-btn" class=" bg-gray-200 text-black px-4 py-2 rounded-lg cursor-pointer">Interview</button>
             <button onclick="toggleStyle('rejected-filter-btn')" id="rejected-filter-btn" class=" bg-gray-200 text-black px-4 py-2 rounded-lg">Rejected</button>
         </section>
+         
+        <!-- filtered data  -->
+        <section id="filtered-section" class="hidden">
+            <!-- Filtered cards will be dynamically inserted here -->
+
+        </section>
 
         <section id="allCards" class="space-y-8">
             <!-- card-1  -->
@@ -77,9 +83,9 @@
                         </div>
                      </div>
                         <!-- part-3  -->
-                         <div>
-                            <button class="light bg-[#a4cbf256] px-5 py-3 rounded-xl uppercase">Not Applied</button>
-                         </div>
+                         
+                            <p class="applied bg-[#a4cbf256] w-40 px-4 py-4 text-center rounded-xl uppercase">Not Applied</p>
+                         
 
                          <!-- part-4  -->
                           <div>
@@ -126,9 +132,7 @@
                         </div>
                      </div>
                         <!-- part-3  -->
-                         <div>
-                            <button class="light bg-[#a4cbf256] px-5 py-3 rounded-xl uppercase">Not Applied</button>
-                         </div>
+                         <p class="applied bg-[#a4cbf256] w-40 px-4 py-4 text-center rounded-xl uppercase">Not Applied</p>
 
                          <!-- part-4  -->
                           <div>
@@ -137,10 +141,10 @@
 
                           <!-- part-5  -->
                            <div class="flex gap-4">
-                            <button class="interview-btn border border-[#10B981] text-[#10B981] px-5 py-3 rounded-xl uppercase">
+                            <button class="interview-btn border border-[#10B981] text-[#10B981] px-5 py-3 rounded-xl uppercase cursor-pointer">
                                 Interview
                             </button>
-                            <button class="rejected-btn text-[#EF4444] px-5 py-3 rounded-xl border-[#EF4444] border uppercase ">Rejected</button>
+                            <button class="rejected-btn text-[#EF4444] px-5 py-3 rounded-xl border-[#EF4444] border uppercase cursor-pointer ">Rejected</button>
                            </div>
                  </div>
                  <div class="card-right">
@@ -174,9 +178,7 @@
                         </div>
                      </div>
                         <!-- part-3  -->
-                         <div>
-                            <button class="light bg-[#a4cbf256] px-5 py-3 rounded-xl uppercase">Not Applied</button>
-                         </div>
+                        <p class="applied bg-[#a4cbf256] w-40 px-4 py-4 text-center rounded-xl uppercase">Not Applied</p>
 
                          <!-- part-4  -->
                           <div>
@@ -186,10 +188,10 @@
 
                           <!-- part-5  -->
                            <div class="flex gap-4">
-                            <button class="interview-btn border border-[#10B981] text-[#10B981] px-5 py-3 rounded-xl uppercase">
+                            <button class="interview-btn border border-[#10B981] text-[#10B981] px-5 py-3 rounded-xl uppercase cursor-pointer">
                                 interview
                             </button>
-                            <button class="rejected-btn text-[#EF4444] px-5 py-3 rounded-xl border-[#EF4444] border uppercase ">Rejected</button>
+                            <button class="rejected-btn text-[#EF4444] px-5 py-3 rounded-xl border-[#EF4444] border uppercase cursor-pointer">Rejected</button>
                            </div>
                  </div>
                  <div class="card-right">
@@ -223,9 +225,7 @@
                         </div>
                      </div>
                         <!-- part-3  -->
-                         <div>
-                            <button class="light bg-[#a4cbf256] px-5 py-3 rounded-xl uppercase">Not Applied</button>
-                         </div>
+                         <p class="applied bg-[#a4cbf256] w-40 px-4 py-4 text-center rounded-xl uppercase">Not Applied</p>
 
                          <!-- part-4  -->
                           <div>
@@ -234,10 +234,10 @@
 
                           <!-- part-5  -->
                            <div class="flex gap-4">
-                            <button class="interview-btn border border-[#10B981] text-[#10B981] px-5 py-3 rounded-xl uppercase">
+                            <button class="interview-btn border border-[#10B981] text-[#10B981] px-5 py-3 rounded-xl uppercase cursor-pointer">
                                 Interview
                             </button>
-                            <button class="rejected-btn text-[#EF4444] px-5 py-3 rounded-xl border-[#EF4444] border uppercase ">Rejected</button>
+                            <button class="rejected-btn text-[#EF4444] px-5 py-3 rounded-xl border-[#EF4444] border uppercase cursor-pointer">Rejected</button>
                            </div>
                  </div>
                  <div class="card-right">
@@ -270,9 +270,7 @@
                         </div>
                      </div>
                         <!-- part-3  -->
-                         <div>
-                            <button class="light bg-[#a4cbf256] px-5 py-3 rounded-xl uppercase">Not Applied</button>
-                         </div>
+                        <p class="applied bg-[#a4cbf256] w-40 px-4 py-4 text-center rounded-xl uppercase">Not Applied</p>
 
                          <!-- part-4  -->
                           <div>
@@ -281,10 +279,10 @@
 
                           <!-- part-5  -->
                            <div class="flex gap-4">
-                            <button class="interview-btn border border-[#10B981] text-[#10B981] px-5 py-3 rounded-xl uppercase">
+                            <button class="interview-btn border border-[#10B981] text-[#10B981] px-5 py-3 rounded-xl uppercase cursor-pointer">
                                 Interview
                             </button>
-                            <button class="rejected-btn text-[#EF4444] px-5 py-3 rounded-xl border-[#EF4444] border uppercase ">Rejected</button>
+                            <button class="rejected-btn text-[#EF4444] px-5 py-3 rounded-xl border-[#EF4444] border uppercase cursor-pointer">Rejected</button>
                            </div>
                  </div>
                  <div class="card-right">
@@ -317,9 +315,7 @@
                         </div>
                      </div>
                         <!-- part-3  -->
-                         <div>
-                            <button class="light bg-[#a4cbf256] px-5 py-3 rounded-xl uppercase">Not Applied</button>
-                         </div>
+                        <p class="applied bg-[#a4cbf256] w-40 px-4 py-4 text-center rounded-xl uppercase">Not Applied</p>
 
                          <!-- part-4  -->
                           <div>
@@ -328,10 +324,10 @@
 
                           <!-- part-5  -->
                            <div class="flex gap-4">
-                            <button class="interview-btn border border-[#10B981] text-[#10B981] px-5 py-3 rounded-xl uppercase">
+                            <button class="interview-btn border border-[#10B981] text-[#10B981] px-5 py-3 rounded-xl uppercase cursor-pointer">
                                 Interview
                             </button>
-                            <button class="rejected-btn text-[#EF4444] px-5 py-3 rounded-xl border-[#EF4444] border uppercase ">Rejected</button>
+                            <button class="rejected-btn text-[#EF4444] px-5 py-3 rounded-xl border-[#EF4444] border uppercase cursor-pointer">Rejected</button>
                            </div>
                  </div>
                  <div class="card-right">
@@ -365,9 +361,7 @@
                         </div>
                      </div>
                         <!-- part-3  -->
-                         <div>
-                            <button class="light bg-[#a4cbf256] px-5 py-3 rounded-xl uppercase">Not Applied</button>
-                         </div>
+                         <p class="applied bg-[#a4cbf256] w-40 px-4 py-4 text-center rounded-xl uppercase">Not Applied</p>
 
                          <!-- part-4  -->
                           <div>
@@ -376,10 +370,10 @@
 
                           <!-- part-5  -->
                            <div class="flex gap-4">
-                            <button class="interview-btn border border-[#10B981] text-[#10B981] px-5 py-3 rounded-xl uppercase">
+                            <button class="interview-btn border border-[#10B981] text-[#10B981] px-5 py-3 rounded-xl uppercase cursor-pointer">
                                 Interview
                             </button>
-                            <button class="rejected-btn text-[#EF4444] px-5 py-3 rounded-xl border-[#EF4444] border uppercase ">Rejected</button>
+                            <button class="rejected-btn text-[#EF4444] px-5 py-3 rounded-xl border-[#EF4444] border uppercase cursor-pointer">Rejected</button>
                            </div>
                  </div>
                  <div class="card-right">
@@ -413,10 +407,7 @@
                         </div>
                      </div>
                         <!-- part-3  -->
-                         <div>
-                            <button class="light bg-[#a4cbf256] px-5 py-3 rounded-xl uppercase">Not Applied</button>
-                         </div>
-
+                       <p class="applied bg-[#a4cbf256] w-40 px-4 py-4 text-center rounded-xl uppercase">Not Applied</p>
                          <!-- part-4  -->
                           <div>
                             <p class=" description text-[#64748B] text-[16px] font-medium">We are looking for an experienced Frontend Developer to build scalable web applications using React and TypeScript. You will work with a talented team on cutting-edge projects.</p>
@@ -424,10 +415,10 @@
 
                           <!-- part-5  -->
                            <div class="flex gap-4">
-                            <button class="interview-btn border border-[#10B981] text-[#10B981] px-5 py-3 rounded-xl uppercase">
+                            <button class="interview-btn border border-[#10B981] text-[#10B981] px-5 py-3 rounded-xl uppercase cursor-pointer">
                                 Interview
                             </button>
-                            <button class="rejected-btn text-[#EF4444] px-5 py-3 rounded-xl border-[#EF4444] border uppercase ">Rejected</button>
+                            <button class="rejected-btn text-[#EF4444] px-5 py-3 rounded-xl border-[#EF4444] border uppercase cursor-pointer">Rejected</button>
                            </div>
                  </div>
                  <div class="card-right">
